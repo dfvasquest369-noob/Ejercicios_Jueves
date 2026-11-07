@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <img src="https://img.magnific.com/vector-gratis/nino-haciendo-matematicas-abaco_1308-31022.jpg?semt=ais_hybrid&w=740&q=80" alt="niño resolviendo">
+
+    <div>
+        <label for="numeroUno">Número 1</label>
+        <br>
+        <input id="numeroUno" type="number" placeholder="Ingrese el primer número">
+    </div>
+
+    <div>
+        <label for="numeroDos">Número 2</label>
+        <br>
+        <input id="numeroDos" type="number" placeholder="Ingrese el segundo número">
+    </div>
+
+    <div>
+        <label for="operacion">Operación</label>
+        <br>
+        <select id="operacion">
+            <option value="">Elige una opción</option>
+            <option value="sumar">Suma</option>
+            <option value="restar">Resta</option>
+            <option value="multiplicar">Multiplicación</option>
+            <option value="dividir">División</option>
+            <option value="porcentaje">Porcentaje</option>
+        </select>
+    </div>
+
+    <div>
+        <button id="calcularBtn" type="button">Calcular</button>
+        <button id="limpiarBtn" type="button">Limpiar</button>
+    </div>
+
+    <p id="resultado">Resultado: 0</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
