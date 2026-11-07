@@ -1,4 +1,4 @@
-/*const transporte = document.getElementById("transporte");
+const transporte = document.getElementById("transporte");
 const respuesta = document.getElementById("respuesta");
 
 transporte.addEventListener("change", function(){
@@ -6,7 +6,7 @@ transporte.addEventListener("change", function(){
     transporte.value;
 });*/
 
-/*const tipo_entrega = document.getElementById
+const tipo_entrega = document.getElementById
 ("entrega");
 
 const salida = document.getElementById("salida");
@@ -21,7 +21,7 @@ tipo_entrega.addEventListener("change", function(){
     } else{
         salida.textContent ="Seleccione una opcion";
     }
-});*/
+});
 
 const transporte = document.getElementById("transporte");
 const respuesta = document.getElementById("respuesta");
