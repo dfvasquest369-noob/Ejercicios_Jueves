@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo sobre mi | DILAN FELIPE VASQUEZ ARISTIZABAL</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+<header>
+    <h1>DILAN FELIPE VASQUEZ ARISTIZABAL</h1>
+    <p>Quien soy yo</p>
+</header>
+
+<section>
+      <h2>Descripcion</h2>
+      <p>
+        Soy una persona responsable, respetuosa y con disposición
+        para aprender. Me gusta trabajar e aprender para adquirir 
+        nuevos conocimientos y aprendizajes que me ayudaran en el 
+        futuro.
+      </p>
+    </section>
+
+  <section>
+  <label for="gustos"><p class="texto-centrado">Mis gustos</p></label>
+    <select id="gustos">
+        <option value="">Elige una opcion.</option>
+            <option value="deporte">Me gusta el futbol.</option>
+            <option value="dibujar">Me gusta un monton dibujar en papel y digital.</option>
+            <option value="leer">Me encanta mucho la literatura y los comics.</option>
+            <option value="musica">Me fascina el HIP-HOP y sus hipnotizantes beats.</option>
+            <option value="cine">Me gustan las peliculas de arte,comedia y accion</option>
+        </select>
+      <p id="descripcion-gusto" aria-live="polite"></p>
+      <img id="imagen-gusto" alt="" hidden>
+      </section>
+
+  <section>
+    <h2>Mi número favorito</h2>
+    <label for="numero-favorito">Elige tu número favorito del 1 al 100:</label>
+    <input type="range" id="numero-favorito" min="1" max="100" value="42">
+    <p id="numero-favorito-texto" class="texto-centrado">Mi número favorito es: 77</p>
+  </section>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+    
+                        
+
+
+
+  
+
+
+
+
